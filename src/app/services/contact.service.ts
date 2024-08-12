@@ -117,7 +117,7 @@ export class ContactService {
     }
 
     private _createContacts() {
-        const contacts = [
+        const contacts:Contact[] = [
             {
                 "_id": "5a56640269f443a5d64b32ca",
                 "name": "Ochoa Hyde",
